@@ -1,0 +1,36 @@
+.main-Header{
+    background-image: url('https://cdn.pixabay.com/photo/2017/01/25/12/31/bitcoin-2007769_960_720.jpg');
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-Header-filtro{
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    width: 100%;
+    min-height: 100vh;
+    padding: 25px;
+}
+
+.main-title{
+   text-align: center;
+   color: #fff;
+   margin-bottom: 15px;
+}
+.main-logo{
+    width: 100%;
+    height: 15vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-logo img{
+    width: 150px;
+}
+
