@@ -1,6 +1,8 @@
 import React from "react";
 import Header from "./screen/Header";
-import Estrategia from './screen/Estrategia'
+import Estrategia from './screen/Metodo'
+import Feedback from "./screen/Feedback";
+import Checkout from "./screen/Checkout";
 import './style.css'
 
 const App = () => {
@@ -8,6 +10,8 @@ const App = () => {
     <>
       <Header/>
       <Estrategia />
+      <Checkout />
+      <Feedback />
     </>
   );
 };

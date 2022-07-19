@@ -1,35 +1,34 @@
-import './style.css'
+import "./style.css";
 
 export default (props) => {
-  return (
-    <div
-      className="checkout-button"
-      style={{ margin: "15px 0" }}
-    >
-      <a
-        href={props.link}
-        target="_blank"
-        style={{
-          backgroundColor: props.color,
-          textDecoration: "none",
-          color: "#fff",
-          height: "105px",
-          borderRadius: '25px'
-        }}
-      >
-        <button
-          id="btn-checkout"
-          type="submit"
-          className="btn btn-success btn-lg"
-          style={{
-            backgroundColor: props.color,
-            border: "none",
-            borderRadius: '25px'
-          }}
+    return (
+        <div
+            className="container-btn"
+            style={{
+                minWidth: props.width,
+                backgroundColor: props.color,
+                maxWidth: "90%",
+                minHeight: "50px",
+                borderRadius: "5px",
+                color: "#fff",
+                padding: "10px",
+                margin: "10px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                textAlign: "center"
+            }}
         >
-          {props.text}
-        </button>
-      </a>
-    </div>
-  );
+            <a
+                href={props.link}
+                target="_blank"
+                style={{
+                    textDecoration: "none",
+                    color: "#fff",
+                }}
+            >
+                {props.text}
+            </a>
+        </div>
+    );
 };
