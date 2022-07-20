@@ -46,3 +46,24 @@
     margin-bottom: 45px;
 }
 
+@media (min-width:680px) {
+    iframe{
+        height: 510px;
+        width: 650px;
+
+    }
+}
+
+@media (min-width:920px) {
+    iframe{
+        margin-top: 15px;
+        height: 640px;
+        width: 800px;
+    }
+
+    .container-btn{
+        width: 500px;
+        height: 60px;
+
+    }
+}
