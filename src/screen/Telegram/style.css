@@ -1,0 +1,26 @@
+.main-telegram {
+    background: url(../../assets/image/FelipeHilux.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.main-telegram-filtro {
+    background-color: rgba(17, 17, 17, 0.7);
+    height: 50vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.text-img {
+    display: flex;
+    flex-direction: row;
+}
+@media (min-width: 1100px) {
+    .main-telegram {
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}

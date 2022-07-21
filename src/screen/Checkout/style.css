@@ -1,16 +1,25 @@
-.checkout-title{
+.checkout-title {
     text-align: center;
     margin-bottom: 15px;
 }
 
-.main-checkout{
+.main-checkout {
     padding: 25px;
+
     background-color: #222;
-    height: 60vh;
+
+    height: 80vh;
+
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
     color: #fff;
-    margin-bottom: 20px;
+}
+@media (min-width: 1100px) {
+    .main-checkout {
+        padding: 55px;
+    }
+
 }

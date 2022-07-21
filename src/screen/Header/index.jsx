@@ -15,41 +15,46 @@ export default () => {
             </div>
             <div className="main-Header">
                 <div className="main-Header-filtro">
-                    <div className="main-title">
-                        <h1>
-                            Assista o video e descubra o metódo para
-                            operar no mercado financeiro da forma mais{" "}
-                            <h1
+                    <div className="main-header-title-video">
+                        <div className="main-title">
+                            <h1>
+                                Assista o video e descubra o metódo
+                                para operar no mercado financeiro da
+                                forma mais{" "}
+                                <h1
+                                    style={{
+                                        color: "#29D420",
+                                        letterSpacing: "3px",
+                                    }}
+                                >
+                                    SIMPLES E SEGURA
+                                </h1>{" "}
+                                utilizando os mesmos sinais que eu e
+                                meus alunos estamos usando para lucrar
+                                todos os dias.
+                            </h1>
+                        </div>
+                        <div className="header-video">
+                            <iframe
+                                width="320"
+                                src="https://www.youtube.com/embed/Wp9tTnGAIR4"
+                                title="YouTube video player"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 style={{
-                                    color: "#29D420",
-                                    letterSpacing: "3px",
+                                    borderRadius: "15px",
+                                    border: "4px solid #222",
                                 }}
-                            >
-                                SIMPLES E SEGURA
-                            </h1>{" "}
-                            utilizando os mesmos sinais que eu e meus
-                            alunos estamos usando para lucrar todos os
-                            dias.
-                        </h1>
+                            ></iframe>
+                        </div>
                     </div>
-                    <div className="header-video">
-                        <iframe
-                            width="320"
-                            src="https://www.youtube.com/embed/Wp9tTnGAIR4"
-                            title="YouTube video player"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            style={{
-                                borderRadius: "15px",
-                                border: "4px solid #222",
-                            }}
-                        ></iframe>
-                    </div>{" "}
-                    <Button
-                        text="Quero ter acesso ao conteúdo do video"
-                        color="#29D420"
-                        width="150px"
-                    />
+                    <div className="footer-btn">
+                        <Button
+                            text="QUERO TER ACESSO AO CONTEÚDO DO VÍDEO"
+                            color="#29D420"
+                            width="100%"
+                        />
+                    </div>
                 </div>
             </div>
         </div>

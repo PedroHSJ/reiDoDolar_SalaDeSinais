@@ -1,7 +1,6 @@
 import './style.css'
 import './response.css'
-import Logo from '../../../public/instagram-brands.svg';
-import Foto from '../../../public/WhatsApp Image 2022-07-18 at 20.10.51.jpeg';
+import Foto from '../../assets/image/fotoPerfil.jpeg';
 
 
 export default () => {
@@ -27,10 +26,7 @@ export default () => {
                         </p>
 
                     </div>
-                    <div className='logos'>
-                        <a href='https://instagram.com/reidodolar_?igshid=YmMyMTA2M2Y='
-                            target="_blank"> <img src={Logo} alt="" /> </a>
-                    </div>
+                    
                 </div>
             </div>
         </div>

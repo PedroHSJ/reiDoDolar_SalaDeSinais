@@ -5,10 +5,10 @@ export default (props) => {
         <div
             className="container-btn"
             style={{
-                minWidth: props.width,
+                width: props.width,
                 backgroundColor: props.color,
                 maxWidth: "90%",
-                minHeight: "50px",
+                height: "80px",
                 borderRadius: "5px",
                 color: "#fff",
                 padding: "10px",
@@ -25,6 +25,7 @@ export default (props) => {
                 style={{
                     textDecoration: "none",
                     color: "#fff",
+                    fontSize: "14pt"
                 }}
             >
                 {props.text}

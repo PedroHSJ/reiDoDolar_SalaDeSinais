@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
  
    
     padding: 25px;
@@ -23,12 +24,57 @@
 }
 
 .logoIcons{
-    width: 20px;
-    height: 20px;
+    width: 50px;
+    height: 50px;
 }
 
 .card{
     width: 18rem;
     margin: 1rem;
     box-shadow: 2px 2px 5px #222
+}
+
+.container-feedback-button {
+    background: url("https://hotmart.s3.amazonaws.com/product_contents/90b7445a-adf3-4c11-9c96-dd24b2a64741/TTRADER.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 20vh;
+}
+
+.container-feedback-button-filtro{
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 100%;
+    min-height: 20vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    padding: 25px;
+
+    color: #fff;
+}
+
+@media (min-width: 1100px) {
+    .metodo-main{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .card-metodo{
+        margin: 5px;
+    }
+    
+    .metodo-footer{
+        display: flex;
+        flex:1;
+        justify-content: center;
+        flex-direction: column;   
+        align-items: center;
+        width: 100%;
+    }
 }

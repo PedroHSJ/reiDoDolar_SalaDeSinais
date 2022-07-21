@@ -30,7 +30,7 @@ export default () => {
             <Button
                 text="GARANTA JÁ SUA VAGA"
                 color="#29D420"
-                width="150px"
+                width="100%"
             />
         </div>
     );

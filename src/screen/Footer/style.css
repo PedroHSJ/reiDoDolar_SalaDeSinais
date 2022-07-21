@@ -1,5 +1,7 @@
 .about_all{
-    background: #222;
+    background: #111;
+    padding: 25px;
+
 }
 
 .about_perfil{
@@ -10,10 +12,10 @@
 }
 
 #img_perfil{
-    margin: 60px 30px 15px 30px;
-    width:50;
-    height: 130px;
+    margin: 10px;
+    width: 40%;
     border-radius: 50%;
+    border: 2px solid #000;
 }
 
 .about_name h1{
@@ -34,7 +36,6 @@
 }
 
 .aboutText p{
-    margin:auto;
     width: 70%;
     text-align:center;
     color: white;
@@ -42,10 +43,15 @@
     font-family: 'Times New Roman', Times, serif;
     padding-bottom: 50px;
 }
+.aboutText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 #sobre  {
     color:#fff;
-    margin: 45px 15px 30px 15px;
     font-size: 30px;
     font-style:italic;
 }
@@ -55,14 +61,12 @@
     font-style: italic;
 }
 
-.logos{
-    margin:auto;
-    padding-bottom: 15px;
-    width: 30px;
-}
+
 
 .link{
     text-decoration: none;
+    color: #fff;
+    font-size: 14pt;
 }
 
 .container-footer h1 {
@@ -72,4 +76,14 @@
 
 a:visited{
     color: #fff;
+}
+
+@media (min-width: 1100px) {
+    .about_all{
+        height: 100vh;
+    }
+    #img_perfil{
+        width: 20%;
+    }
+
 }

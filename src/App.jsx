@@ -5,6 +5,7 @@ import Feedback from "./screen/Feedback";
 import Checkout from "./screen/Checkout";
 import Footer from "./screen/Footer";
 import './style.css'
+import Telegram from "./screen/Telegram";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Estrategia />
       <Checkout />
       <Feedback />
+      <Telegram />
       <Footer/>
     </>
   );

@@ -1,14 +1,12 @@
-.main-Header{
-    background-image: url('https://cdn.pixabay.com/photo/2017/01/25/12/31/bitcoin-2007769_960_720.jpg');
+.main-Header {
+    background-image: url("https://cdn.pixabay.com/photo/2017/01/25/12/31/bitcoin-2007769_960_720.jpg");
     min-height: 85vh;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
 }
-.main-Header-filtro{
+.main-Header-filtro {
     background-color: rgba(0, 0, 0, 0.8) !important;
     width: 100%;
     min-height: 85vh;
@@ -20,12 +18,12 @@
     justify-content: center;
 }
 
-.main-title{
-   text-align: center;
-   color: #fff;
-   margin-bottom: 15px;
+.main-title {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 15px;
 }
-.main-logo{
+.main-logo {
     width: 100%;
     min-height: 15vh;
     background-color: #000;
@@ -34,11 +32,11 @@
     align-items: center;
     padding: 5px;
 }
-.main-logo img{
+.main-logo img {
     width: 45%;
 }
 
-.header-video{
+.header-video {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,15 +44,45 @@
     margin-bottom: 45px;
 }
 
-@media (min-width:680px) {
+.footer-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    width: 100%;
+}
+@media (min-width: 1023px) {
+    .main-logo {
+        height: 15vh;
+    }
+    .main-logo img {
+        width: 10%;
+    }
+    .main-header-title-video {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .main-title {
+        width: 50%;
+    }
+    .header-video iframe {
+        width: 550px;
+        height: 410px;
+    }
+}
+
+/* @media (min-width:680px) {
     iframe{
         height: 510px;
         width: 650px;
 
     }
-}
+} */
 
-@media (min-width:920px) {
+/* @media (min-width:920px) {
     iframe{
         margin-top: 15px;
         height: 640px;
@@ -66,4 +94,4 @@
         height: 60px;
 
     }
-}
+} */
